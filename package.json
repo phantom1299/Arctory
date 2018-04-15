@@ -1,0 +1,42 @@
+{
+  "name": "Hella",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.4.2",
+    "react": "16.3.1",
+    "react-native": "0.55.2",
+    "react-native-camera": "^1.0.3",
+    "react-native-charts-wrapper": "^0.4.3",
+    "react-native-onesignal": "^3.1.4",
+    "react-native-qrcode-scanner": "^1.0.1",
+    "react-native-swipe-list-view": "^1.0.7",
+    "react-navigation": "^1.5.11",
+    "react-navigation-redux-helpers": "^1.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-form": "^7.3.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "4.9.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "jest": "22.4.3",
+    "prettier-eslint": "^8.8.1",
+    "react-test-renderer": "16.3.1",
+    "redux-devtools-extension": "^2.13.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
